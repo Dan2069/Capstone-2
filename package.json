@@ -4,8 +4,8 @@
   "description": "react boiler plate",
   "main": "index.js",
   "engine": {
-    "node": "10.16.0",
-    "npm": "6.9.0"
+    "node": "18.12.1",
+    "npm": "8.19.2"
   },
   "scripts": {
     "start": "node server/index.js",
@@ -16,29 +16,36 @@
   "author": "John ahn",
   "license": "ISC",
   "dependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.1.0",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
+    "eslint": "^6.6.0",
     "express": "^4.17.1",
+    "jest": "^24.9.0",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.29.4",
     "mongoose": "^6.7.3",
+    "node": "^16.0.0",
     "react-redux": "^5.0.7",
+    "react-scripts": "^5.0.1",
     "saslprep": "^1.0.3",
-    "supports-color": "^7.1.0"
+    "supports-color": "^7.1.0",
+    "webpack": "^4.42.0",
+    "webpack-dev-server": "^3.10.3"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
     "nodemon": "^2.0.20"
   },
-
   "browserslist": {
     "production": [
       ">0.3%",
       "not ie 11",
-      "not dead", 
+      "not dead",
       "not op_mini all"
     ],
     "development": [
@@ -47,7 +54,7 @@
       "last 1 safari version",
       ">0.3%",
       "not ie 11",
-      "not dead", 
+      "not dead",
       "not op_mini all"
     ]
   }
