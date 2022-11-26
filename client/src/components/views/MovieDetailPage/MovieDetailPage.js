@@ -33,7 +33,7 @@ function MovieDetailPage(props) {
 
             })
 
-    }, [])
+    },)
 
 
     const handleClick = () => {

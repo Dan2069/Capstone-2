@@ -40,7 +40,7 @@ function Favorite(props) {
             }
         })
 
-    }, [])
+    },)
 
     const onClickFavorite = () => {
         if(Favorited){
