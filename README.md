@@ -1,7 +1,7 @@
 # Movie Viewing Application
 
 
-[Link to application here](www.google.com)
+Link to Application to be provided here
 
 
 ## Installation
