@@ -31,6 +31,7 @@ npm test
 
 ## Features
 
+API Link: "https://api.themoviedb.org/3/"
 ```
 Login/Logout - Logs the current user into/out of  the website application
 
@@ -65,6 +66,7 @@ React.js
 Node.js
 
 Express.js
+
 
 
 
